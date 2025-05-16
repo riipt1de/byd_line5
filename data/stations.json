@@ -1,0 +1,77 @@
+[ {
+  "name" : "asd",
+  "process" : "asd",
+  "items" : [ {
+    "name" : "sadasd",
+    "db" : "db123.",
+    "offset" : 387.0,
+    "dataType" : "string",
+    "itemType" : "普通项",
+    "length" : 50,
+    "result" : ""
+  }, {
+    "name" : "压销钉压力位移1",
+    "db" : "db9000.",
+    "offset" : 86.0,
+    "dataType" : "array[0..20] of real",
+    "itemType" : "函数项_y",
+    "length" : 1,
+    "result" : ""
+  }, {
+    "name" : "压销钉压力位移1",
+    "db" : "db9000.",
+    "offset" : 246.0,
+    "dataType" : "array[0..20] of real",
+    "itemType" : "函数项_x",
+    "length" : 1,
+    "result" : ""
+  }, {
+    "name" : "压销钉压力位移2",
+    "db" : "db9000.",
+    "offset" : 160.0,
+    "dataType" : "array[0..20] of real",
+    "itemType" : "函数项_y",
+    "length" : 1,
+    "result" : ""
+  }, {
+    "name" : "压销钉压力位移2",
+    "db" : "db9000.",
+    "offset" : 190.0,
+    "dataType" : "array[0..20] of real",
+    "itemType" : "函数项_x",
+    "length" : 1,
+    "result" : ""
+  }, {
+    "name" : "零件身份证",
+    "db" : "db9000.",
+    "offset" : 28.0,
+    "dataType" : "string",
+    "itemType" : "SN项",
+    "length" : 48,
+    "result" : ""
+  }, {
+    "name" : "plc请求",
+    "db" : "db9000.",
+    "offset" : 78.0,
+    "dataType" : "byte",
+    "itemType" : "监听项",
+    "length" : 1,
+    "result" : ""
+  }, {
+    "name" : "喷油时间",
+    "db" : "db9000.",
+    "offset" : 906.0,
+    "dataType" : "float",
+    "itemType" : "读取项",
+    "length" : 1,
+    "result" : ""
+  }, {
+    "name" : "mes反馈",
+    "db" : "db9000.",
+    "offset" : 907.0,
+    "dataType" : "byte",
+    "itemType" : "写入项",
+    "length" : 1,
+    "result" : ""
+  } ]
+} ]

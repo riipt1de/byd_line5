@@ -1,0 +1,37 @@
+{
+  "apis": [
+    {
+      "name": "测试",
+      "ip": "127.0.0.1",
+      "port": "8080",
+      "id": "",
+      "params": {
+        "vin": "123456",
+        "includeCurve": "false",
+        "includeSteps": "false"
+      }
+    },
+    {
+      "name": "马头1",
+      "ip": "192.168.1.100",
+      "port": "8080",
+      "id": "",
+      "params": {
+        "vin": "123456",
+        "includeCurve": "false",
+        "includeSteps": "false"
+      }
+    },
+    {
+      "name": "马头2",
+      "ip": "192.168.1.101",
+      "port": "8081",
+      "id": "",
+      "params": {
+        "vin": "654321",
+        "includeCurve": "true",
+        "includeSteps": "true"
+      }
+    }
+  ]
+}

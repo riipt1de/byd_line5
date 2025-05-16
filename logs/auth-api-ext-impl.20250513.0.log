@@ -1,0 +1,889 @@
+2025-05-13 10:20:24.639 [JavaFX Application Thread] INFO  com.znh.siemens.StartApplication - plc�ɼ����������ɹ�
+2025-05-13 10:22:50.068 [JavaFX Application Thread] INFO  com.znh.siemens.StartApplication - plc采集程序启动成功
+2025-05-13 10:22:54.954 [JavaFX Application Thread] INFO  com.znh.siemens.controller.TighteningController - 拧紧控制器HTTP服务器已启动，端口：5001
+2025-05-13 10:23:02.462 [JavaFX Application Thread] INFO  com.znh.siemens.StartApplication - plc采集程序启动成功
+2025-05-13 10:30:17.967 [JavaFX Application Thread] INFO  com.znh.siemens.controller.TighteningController - 拧紧控制器HTTP服务器已停止
+2025-05-13 11:03:21.902 [JavaFX Application Thread] INFO  com.znh.siemens.StartApplication - plc采集程序启动成功
+2025-05-13 11:03:27.381 [JavaFX Application Thread] INFO  com.znh.siemens.controller.TighteningController - 拧紧控制器HTTP服务器已启动，端口：5002
+2025-05-13 11:24:52.317 [Thread-7] INFO  com.znh.siemens.controller.TighteningController - PUT Data: ID=null, data={
+  "model": {
+    "resultNumber": 4,
+    "controllerDateTime": "2025-04-27T16:53:17+08:00",
+    "cycleOKProgrammed": 1,
+    "cycleOKCount": 0,
+    "operationCount": 1,
+    "operationName": "F 11.00 Nm",
+    "report": "NOK",
+    "spindleCount": 1,
+    "controller": {
+      "name": "OP100-1@70.9.5.2",
+      "ip": "70.9.5.2",
+      "type": 6
+    },
+    "tighteningUnit": {
+      "name": "OP100-1",
+      "number": 1
+    },
+    "pSet": {
+      "comment": "F 11.00 Nm",
+      "number": 1,
+      "torqueUnit": 0,
+      "initialTorqueUnit": 0
+    },
+    "identifiers": [],
+    "results": [
+      {
+        "tool": {
+          "number": 1,
+          "serialNumber": "24M73600"
+        },
+        "steps": [
+          {
+            "configuration": {
+              "angleMaxTolerance": 0.0,
+              "angleMinTolerance": 0.0,
+              "angleTarget": 0.0,
+              "angleThreshold": 0.0,
+              "maxCurrent": 0.0,
+              "minCurrent": 0.0,
+              "number": 3,
+              "numberDiscriminant": 0,
+              "type": 20,
+              "torqueMaxTolerance": 11.300000190734863,
+              "torqueMinTolerance": 10.699999809265137,
+              "torqueRateMaxTolerance": 0.0,
+              "torqueRateMinTolerance": 0.0,
+              "torqueRateTarget": 0.0,
+              "torqueTarget": 11.0
+            },
+            "data": {
+              "angleTrend": 0,
+              "currentTrend": 0,
+              "cycleOKCount": 0,
+              "errorCode": 0,
+              "finalAngle": 0.0,
+              "finalCurrent": 0.0,
+              "finalTorque": 11.370782852172852,
+              "finalTorqueRate": 0.0,
+              "infTorque": 0.0,
+              "monitoring1Trend": 0,
+              "monitoring2Trend": 0,
+              "monitoringType": 0,
+              "recordType": 0,
+              "report": "NOK",
+              "resultType": 1,
+              "servoDriveError": 0,
+              "supTorque": 0.0,
+              "torqueAccuracy": 2,
+              "torqueRateTrend": 0,
+              "torqueTrend": 2,
+              "isHeader": false,
+              "isAggregation": true,
+              "isAggregationTool": true
+            }
+          }
+        ]
+      }
+    ],
+    "divisionId": "c890cd09-5e91-4d10-9dc3-936a6b9b58ee",
+    "divisionName": "Default Division",
+    "factoryId": "82e61c1c-5e54-4025-be9c-7f4cf1b0d17d",
+    "factoryName": "Default Factory",
+    "assemblyLineId": "34dd05eb-c5f6-40ba-9373-f1013c413b60",
+    "assemblyLineName": "Default Assembly line",
+    "workingAreaId": "5fe74e0c-7e38-4ed9-81f0-cc1dc197cb17",
+    "workingAreaName": "Default Working Area",
+    "deviceId": "70.9.5.2",
+    "virtualDeviceId": "70.9.5.2",
+    "deviceName": "OP100-1@70.9.5.2",
+    "deviceType": "TighteningProduct",
+    "companyName": "Default Company"
+  },
+  "id": "70.9.5.2-27.04.2025 16:53:17 +08:00-1-4",
+  "updatedAt": "2025-04-27T16:53:21.2600345+08:00",
+  "createdAt": "2025-04-27T16:53:21.0402065+08:00"
+}
+2025-05-13 11:25:30.314 [Thread-7] INFO  com.znh.siemens.controller.TighteningController - PUT Data: ID=null, data={
+  "model": {
+    "resultNumber": 4,
+    "controllerDateTime": "2025-04-27T16:53:17+08:00",
+    "cycleOKProgrammed": 1,
+    "cycleOKCount": 0,
+    "operationCount": 1,
+    "operationName": "F 11.00 Nm",
+    "report": "NOK",
+    "spindleCount": 1,
+    "controller": {
+      "name": "OP100-1@70.9.5.2",
+      "ip": "70.9.5.2",
+      "type": 6
+    },
+    "tighteningUnit": {
+      "name": "OP100-1",
+      "number": 1
+    },
+    "pSet": {
+      "comment": "F 11.00 Nm",
+      "number": 1,
+      "torqueUnit": 0,
+      "initialTorqueUnit": 0
+    },
+    "identifiers": [],
+    "results": [
+      {
+        "tool": {
+          "number": 1,
+          "serialNumber": "24M73600"
+        },
+        "steps": [
+          {
+            "configuration": {
+              "angleMaxTolerance": 0.0,
+              "angleMinTolerance": 0.0,
+              "angleTarget": 0.0,
+              "angleThreshold": 0.0,
+              "maxCurrent": 0.0,
+              "minCurrent": 0.0,
+              "number": 3,
+              "numberDiscriminant": 0,
+              "type": 20,
+              "torqueMaxTolerance": 11.300000190734863,
+              "torqueMinTolerance": 10.699999809265137,
+              "torqueRateMaxTolerance": 0.0,
+              "torqueRateMinTolerance": 0.0,
+              "torqueRateTarget": 0.0,
+              "torqueTarget": 11.0
+            },
+            "data": {
+              "angleTrend": 0,
+              "currentTrend": 0,
+              "cycleOKCount": 0,
+              "errorCode": 0,
+              "finalAngle": 0.0,
+              "finalCurrent": 0.0,
+              "finalTorque": 11.370782852172852,
+              "finalTorqueRate": 0.0,
+              "infTorque": 0.0,
+              "monitoring1Trend": 0,
+              "monitoring2Trend": 0,
+              "monitoringType": 0,
+              "recordType": 0,
+              "report": "NOK",
+              "resultType": 1,
+              "servoDriveError": 0,
+              "supTorque": 0.0,
+              "torqueAccuracy": 2,
+              "torqueRateTrend": 0,
+              "torqueTrend": 2,
+              "isHeader": false,
+              "isAggregation": true,
+              "isAggregationTool": true
+            }
+          }
+        ]
+      }
+    ],
+    "divisionId": "c890cd09-5e91-4d10-9dc3-936a6b9b58ee",
+    "divisionName": "Default Division",
+    "factoryId": "82e61c1c-5e54-4025-be9c-7f4cf1b0d17d",
+    "factoryName": "Default Factory",
+    "assemblyLineId": "34dd05eb-c5f6-40ba-9373-f1013c413b60",
+    "assemblyLineName": "Default Assembly line",
+    "workingAreaId": "5fe74e0c-7e38-4ed9-81f0-cc1dc197cb17",
+    "workingAreaName": "Default Working Area",
+    "deviceId": "70.9.5.2",
+    "virtualDeviceId": "70.9.5.2",
+    "deviceName": "OP100-1@70.9.5.2",
+    "deviceType": "TighteningProduct",
+    "companyName": "Default Company"
+  },
+  "id": "70.9.5.2-27.04.2025 16:53:17 +08:00-1-4",
+  "updatedAt": "2025-04-27T16:53:21.2600345+08:00",
+  "createdAt": "2025-04-27T16:53:21.0402065+08:00"
+}
+2025-05-13 11:28:13.082 [Thread-7] INFO  com.znh.siemens.controller.TighteningController - PUT Data: ID=null, data={
+  "model": {
+    "resultNumber": 4,
+    "controllerDateTime": "2025-04-27T16:53:17+08:00",
+    "cycleOKProgrammed": 1,
+    "cycleOKCount": 0,
+    "operationCount": 1,
+    "operationName": "F 11.00 Nm",
+    "report": "NOK",
+    "spindleCount": 1,
+    "controller": {
+      "name": "OP100-1@70.9.5.2",
+      "ip": "70.9.5.2",
+      "type": 6
+    },
+    "tighteningUnit": {
+      "name": "OP100-1",
+      "number": 1
+    },
+    "pSet": {
+      "comment": "F 11.00 Nm",
+      "number": 1,
+      "torqueUnit": 0,
+      "initialTorqueUnit": 0
+    },
+    "identifiers": [],
+    "results": [
+      {
+        "tool": {
+          "number": 1,
+          "serialNumber": "24M73600"
+        },
+        "steps": [
+          {
+            "configuration": {
+              "angleMaxTolerance": 0.0,
+              "angleMinTolerance": 0.0,
+              "angleTarget": 0.0,
+              "angleThreshold": 0.0,
+              "maxCurrent": 0.0,
+              "minCurrent": 0.0,
+              "number": 3,
+              "numberDiscriminant": 0,
+              "type": 20,
+              "torqueMaxTolerance": 11.300000190734863,
+              "torqueMinTolerance": 10.699999809265137,
+              "torqueRateMaxTolerance": 0.0,
+              "torqueRateMinTolerance": 0.0,
+              "torqueRateTarget": 0.0,
+              "torqueTarget": 11.0
+            },
+            "data": {
+              "angleTrend": 0,
+              "currentTrend": 0,
+              "cycleOKCount": 0,
+              "errorCode": 0,
+              "finalAngle": 0.0,
+              "finalCurrent": 0.0,
+              "finalTorque": 11.370782852172852,
+              "finalTorqueRate": 0.0,
+              "infTorque": 0.0,
+              "monitoring1Trend": 0,
+              "monitoring2Trend": 0,
+              "monitoringType": 0,
+              "recordType": 0,
+              "report": "NOK",
+              "resultType": 1,
+              "servoDriveError": 0,
+              "supTorque": 0.0,
+              "torqueAccuracy": 2,
+              "torqueRateTrend": 0,
+              "torqueTrend": 2,
+              "isHeader": false,
+              "isAggregation": true,
+              "isAggregationTool": true
+            }
+          }
+        ]
+      }
+    ],
+    "divisionId": "c890cd09-5e91-4d10-9dc3-936a6b9b58ee",
+    "divisionName": "Default Division",
+    "factoryId": "82e61c1c-5e54-4025-be9c-7f4cf1b0d17d",
+    "factoryName": "Default Factory",
+    "assemblyLineId": "34dd05eb-c5f6-40ba-9373-f1013c413b60",
+    "assemblyLineName": "Default Assembly line",
+    "workingAreaId": "5fe74e0c-7e38-4ed9-81f0-cc1dc197cb17",
+    "workingAreaName": "Default Working Area",
+    "deviceId": "70.9.5.2",
+    "virtualDeviceId": "70.9.5.2",
+    "deviceName": "OP100-1@70.9.5.2",
+    "deviceType": "TighteningProduct",
+    "companyName": "Default Company"
+  },
+  "id": "70.9.5.2-27.04.2025 16:53:17 +08:00-1-4",
+  "updatedAt": "2025-04-27T16:53:21.2600345+08:00",
+  "createdAt": "2025-04-27T16:53:21.0402065+08:00"
+}
+2025-05-13 11:37:40.752 [Thread-7] INFO  com.znh.siemens.controller.TighteningController - PUT Data: ID=null, data={
+  "model": {
+    "resultNumber": 4,
+    "controllerDateTime": "2025-04-27T16:53:17+08:00",
+    "cycleOKProgrammed": 1,
+    "cycleOKCount": 0,
+    "operationCount": 1,
+    "operationName": "F 11.00 Nm",
+    "report": "NOK",
+    "spindleCount": 1,
+    "controller": {
+      "name": "OP100-1@70.9.5.2",
+      "ip": "70.9.5.2",
+      "type": 6
+    },
+    "tighteningUnit": {
+      "name": "OP100-1",
+      "number": 1
+    },
+    "pSet": {
+      "comment": "F 11.00 Nm",
+      "number": 1,
+      "torqueUnit": 0,
+      "initialTorqueUnit": 0
+    },
+    "identifiers": [],
+    "results": [
+      {
+        "tool": {
+          "number": 1,
+          "serialNumber": "24M73600"
+        },
+        "steps": [
+          {
+            "configuration": {
+              "angleMaxTolerance": 0.0,
+              "angleMinTolerance": 0.0,
+              "angleTarget": 0.0,
+              "angleThreshold": 0.0,
+              "maxCurrent": 0.0,
+              "minCurrent": 0.0,
+              "number": 3,
+              "numberDiscriminant": 0,
+              "type": 20,
+              "torqueMaxTolerance": 11.300000190734863,
+              "torqueMinTolerance": 10.699999809265137,
+              "torqueRateMaxTolerance": 0.0,
+              "torqueRateMinTolerance": 0.0,
+              "torqueRateTarget": 0.0,
+              "torqueTarget": 11.0
+            },
+            "data": {
+              "angleTrend": 0,
+              "currentTrend": 0,
+              "cycleOKCount": 0,
+              "errorCode": 0,
+              "finalAngle": 0.0,
+              "finalCurrent": 0.0,
+              "finalTorque": 11.370782852172852,
+              "finalTorqueRate": 0.0,
+              "infTorque": 0.0,
+              "monitoring1Trend": 0,
+              "monitoring2Trend": 0,
+              "monitoringType": 0,
+              "recordType": 0,
+              "report": "NOK",
+              "resultType": 1,
+              "servoDriveError": 0,
+              "supTorque": 0.0,
+              "torqueAccuracy": 2,
+              "torqueRateTrend": 0,
+              "torqueTrend": 2,
+              "isHeader": false,
+              "isAggregation": true,
+              "isAggregationTool": true
+            }
+          }
+        ]
+      }
+    ],
+    "divisionId": "c890cd09-5e91-4d10-9dc3-936a6b9b58ee",
+    "divisionName": "Default Division",
+    "factoryId": "82e61c1c-5e54-4025-be9c-7f4cf1b0d17d",
+    "factoryName": "Default Factory",
+    "assemblyLineId": "34dd05eb-c5f6-40ba-9373-f1013c413b60",
+    "assemblyLineName": "Default Assembly line",
+    "workingAreaId": "5fe74e0c-7e38-4ed9-81f0-cc1dc197cb17",
+    "workingAreaName": "Default Working Area",
+    "deviceId": "70.9.5.2",
+    "virtualDeviceId": "70.9.5.2",
+    "deviceName": "OP100-1@70.9.5.2",
+    "deviceType": "TighteningProduct",
+    "companyName": "Default Company"
+  },
+  "id": "70.9.5.2-27.04.2025 16:53:17 +08:00-1-4",
+  "updatedAt": "2025-04-27T16:53:21.2600345+08:00",
+  "createdAt": "2025-04-27T16:53:21.0402065+08:00"
+}
+2025-05-13 11:38:07.454 [Thread-7] INFO  com.znh.siemens.controller.TighteningController - PUT Data: ID=null, data={
+  "model": {
+    "resultNumber": 4,
+    "controllerDateTime": "2025-04-27T16:53:17+08:00",
+    "cycleOKProgrammed": 1,
+    "cycleOKCount": 0,
+    "operationCount": 1,
+    "operationName": "F 11.00 Nm",
+    "report": "NOK",
+    "spindleCount": 1,
+    "controller": {
+      "name": "OP100-1@70.9.5.2",
+      "ip": "70.9.5.2",
+      "type": 6
+    },
+    "tighteningUnit": {
+      "name": "OP100-1",
+      "number": 1
+    },
+    "pSet": {
+      "comment": "F 11.00 Nm",
+      "number": 1,
+      "torqueUnit": 0,
+      "initialTorqueUnit": 0
+    },
+    "identifiers": [],
+    "results": [
+      {
+        "tool": {
+          "number": 1,
+          "serialNumber": "24M73600"
+        },
+        "steps": [
+          {
+            "configuration": {
+              "angleMaxTolerance": 0.0,
+              "angleMinTolerance": 0.0,
+              "angleTarget": 0.0,
+              "angleThreshold": 0.0,
+              "maxCurrent": 0.0,
+              "minCurrent": 0.0,
+              "number": 3,
+              "numberDiscriminant": 0,
+              "type": 20,
+              "torqueMaxTolerance": 11.300000190734863,
+              "torqueMinTolerance": 10.699999809265137,
+              "torqueRateMaxTolerance": 0.0,
+              "torqueRateMinTolerance": 0.0,
+              "torqueRateTarget": 0.0,
+              "torqueTarget": 11.0
+            },
+            "data": {
+              "angleTrend": 0,
+              "currentTrend": 0,
+              "cycleOKCount": 0,
+              "errorCode": 0,
+              "finalAngle": 0.0,
+              "finalCurrent": 0.0,
+              "finalTorque": 11.370782852172852,
+              "finalTorqueRate": 0.0,
+              "infTorque": 0.0,
+              "monitoring1Trend": 0,
+              "monitoring2Trend": 0,
+              "monitoringType": 0,
+              "recordType": 0,
+              "report": "NOK",
+              "resultType": 1,
+              "servoDriveError": 0,
+              "supTorque": 0.0,
+              "torqueAccuracy": 2,
+              "torqueRateTrend": 0,
+              "torqueTrend": 2,
+              "isHeader": false,
+              "isAggregation": true,
+              "isAggregationTool": true
+            }
+          }
+        ]
+      }
+    ],
+    "divisionId": "c890cd09-5e91-4d10-9dc3-936a6b9b58ee",
+    "divisionName": "Default Division",
+    "factoryId": "82e61c1c-5e54-4025-be9c-7f4cf1b0d17d",
+    "factoryName": "Default Factory",
+    "assemblyLineId": "34dd05eb-c5f6-40ba-9373-f1013c413b60",
+    "assemblyLineName": "Default Assembly line",
+    "workingAreaId": "5fe74e0c-7e38-4ed9-81f0-cc1dc197cb17",
+    "workingAreaName": "Default Working Area",
+    "deviceId": "70.9.5.2",
+    "virtualDeviceId": "70.9.5.2",
+    "deviceName": "OP100-1@70.9.5.2",
+    "deviceType": "TighteningProduct",
+    "companyName": "Default Company"
+  },
+  "id": "70.9.5.2-27.04.2025 16:53:17 +08:00-1-4",
+  "updatedAt": "2025-04-27T16:53:21.2600345+08:00",
+  "createdAt": "2025-04-27T16:53:21.0402065+08:00"
+}
+2025-05-13 11:47:30.320 [Thread-7] INFO  com.znh.siemens.controller.TighteningController - PUT Data: ID=null, data={
+  "model": {
+    "resultNumber": 4,
+    "controllerDateTime": "2025-04-27T16:53:17+08:00",
+    "cycleOKProgrammed": 1,
+    "cycleOKCount": 0,
+    "operationCount": 1,
+    "operationName": "F 11.00 Nm",
+    "report": "NOK",
+    "spindleCount": 1,
+    "controller": {
+      "name": "OP100-1@70.9.5.2",
+      "ip": "70.9.5.2",
+      "type": 6
+    },
+    "tighteningUnit": {
+      "name": "OP100-1",
+      "number": 1
+    },
+    "pSet": {
+      "comment": "F 11.00 Nm",
+      "number": 1,
+      "torqueUnit": 0,
+      "initialTorqueUnit": 0
+    },
+    "identifiers": [],
+    "results": [
+      {
+        "tool": {
+          "number": 1,
+          "serialNumber": "24M73600"
+        },
+        "steps": [
+          {
+            "configuration": {
+              "angleMaxTolerance": 0.0,
+              "angleMinTolerance": 0.0,
+              "angleTarget": 0.0,
+              "angleThreshold": 0.0,
+              "maxCurrent": 0.0,
+              "minCurrent": 0.0,
+              "number": 3,
+              "numberDiscriminant": 0,
+              "type": 20,
+              "torqueMaxTolerance": 11.300000190734863,
+              "torqueMinTolerance": 10.699999809265137,
+              "torqueRateMaxTolerance": 0.0,
+              "torqueRateMinTolerance": 0.0,
+              "torqueRateTarget": 0.0,
+              "torqueTarget": 11.0
+            },
+            "data": {
+              "angleTrend": 0,
+              "currentTrend": 0,
+              "cycleOKCount": 0,
+              "errorCode": 0,
+              "finalAngle": 0.0,
+              "finalCurrent": 0.0,
+              "finalTorque": 11.370782852172852,
+              "finalTorqueRate": 0.0,
+              "infTorque": 0.0,
+              "monitoring1Trend": 0,
+              "monitoring2Trend": 0,
+              "monitoringType": 0,
+              "recordType": 0,
+              "report": "NOK",
+              "resultType": 1,
+              "servoDriveError": 0,
+              "supTorque": 0.0,
+              "torqueAccuracy": 2,
+              "torqueRateTrend": 0,
+              "torqueTrend": 2,
+              "isHeader": false,
+              "isAggregation": true,
+              "isAggregationTool": true
+            }
+          }
+        ]
+      }
+    ],
+    "divisionId": "c890cd09-5e91-4d10-9dc3-936a6b9b58ee",
+    "divisionName": "Default Division",
+    "factoryId": "82e61c1c-5e54-4025-be9c-7f4cf1b0d17d",
+    "factoryName": "Default Factory",
+    "assemblyLineId": "34dd05eb-c5f6-40ba-9373-f1013c413b60",
+    "assemblyLineName": "Default Assembly line",
+    "workingAreaId": "5fe74e0c-7e38-4ed9-81f0-cc1dc197cb17",
+    "workingAreaName": "Default Working Area",
+    "deviceId": "70.9.5.2",
+    "virtualDeviceId": "70.9.5.2",
+    "deviceName": "OP100-1@70.9.5.2",
+    "deviceType": "TighteningProduct",
+    "companyName": "Default Company"
+  },
+  "id": "70.9.5.2-27.04.2025 16:53:17 +08:00-1-4",
+  "updatedAt": "2025-04-27T16:53:21.2600345+08:00",
+  "createdAt": "2025-04-27T16:53:21.0402065+08:00"
+}
+2025-05-13 11:47:52.963 [Thread-7] INFO  com.znh.siemens.controller.TighteningController - PUT Data: ID=null, data={
+  "model": {
+    "resultNumber": 4,
+    "controllerDateTime": "2025-04-27T16:53:17+08:00",
+    "cycleOKProgrammed": 1,
+    "cycleOKCount": 0,
+    "operationCount": 1,
+    "operationName": "F 11.00 Nm",
+    "report": "NOK",
+    "spindleCount": 1,
+    "controller": {
+      "name": "OP100-1@70.9.5.2",
+      "ip": "70.9.5.2",
+      "type": 6
+    },
+    "tighteningUnit": {
+      "name": "OP100-1",
+      "number": 1
+    },
+    "pSet": {
+      "comment": "F 11.00 Nm",
+      "number": 1,
+      "torqueUnit": 0,
+      "initialTorqueUnit": 0
+    },
+    "identifiers": [],
+    "results": [
+      {
+        "tool": {
+          "number": 1,
+          "serialNumber": "24M73600"
+        },
+        "steps": [
+          {
+            "configuration": {
+              "angleMaxTolerance": 0.0,
+              "angleMinTolerance": 0.0,
+              "angleTarget": 0.0,
+              "angleThreshold": 0.0,
+              "maxCurrent": 0.0,
+              "minCurrent": 0.0,
+              "number": 3,
+              "numberDiscriminant": 0,
+              "type": 20,
+              "torqueMaxTolerance": 11.300000190734863,
+              "torqueMinTolerance": 10.699999809265137,
+              "torqueRateMaxTolerance": 0.0,
+              "torqueRateMinTolerance": 0.0,
+              "torqueRateTarget": 0.0,
+              "torqueTarget": 11.0
+            },
+            "data": {
+              "angleTrend": 0,
+              "currentTrend": 0,
+              "cycleOKCount": 0,
+              "errorCode": 0,
+              "finalAngle": 0.0,
+              "finalCurrent": 0.0,
+              "finalTorque": 11.370782852172852,
+              "finalTorqueRate": 0.0,
+              "infTorque": 0.0,
+              "monitoring1Trend": 0,
+              "monitoring2Trend": 0,
+              "monitoringType": 0,
+              "recordType": 0,
+              "report": "NOK",
+              "resultType": 1,
+              "servoDriveError": 0,
+              "supTorque": 0.0,
+              "torqueAccuracy": 2,
+              "torqueRateTrend": 0,
+              "torqueTrend": 2,
+              "isHeader": false,
+              "isAggregation": true,
+              "isAggregationTool": true
+            }
+          }
+        ]
+      }
+    ],
+    "divisionId": "c890cd09-5e91-4d10-9dc3-936a6b9b58ee",
+    "divisionName": "Default Division",
+    "factoryId": "82e61c1c-5e54-4025-be9c-7f4cf1b0d17d",
+    "factoryName": "Default Factory",
+    "assemblyLineId": "34dd05eb-c5f6-40ba-9373-f1013c413b60",
+    "assemblyLineName": "Default Assembly line",
+    "workingAreaId": "5fe74e0c-7e38-4ed9-81f0-cc1dc197cb17",
+    "workingAreaName": "Default Working Area",
+    "deviceId": "70.9.5.2",
+    "virtualDeviceId": "70.9.5.2",
+    "deviceName": "OP100-1@70.9.5.2",
+    "deviceType": "TighteningProduct",
+    "companyName": "Default Company"
+  },
+  "id": "70.9.5.2-27.04.2025 16:53:17 +08:00-1-4",
+  "updatedAt": "2025-04-27T16:53:21.2600345+08:00",
+  "createdAt": "2025-04-27T16:53:21.0402065+08:00"
+}
+2025-05-13 11:48:16.974 [Thread-7] INFO  com.znh.siemens.controller.TighteningController - PUT Data: ID=null, data={
+  "model": {
+    "resultNumber": 4,
+    "controllerDateTime": "2025-04-27T16:53:17+08:00",
+    "cycleOKProgrammed": 1,
+    "cycleOKCount": 0,
+    "operationCount": 1,
+    "operationName": "F 11.00 Nm",
+    "report": "NOK",
+    "spindleCount": 1,
+    "controller": {
+      "name": "OP100-1@70.9.5.2",
+      "ip": "70.9.5.2",
+      "type": 6
+    },
+    "tighteningUnit": {
+      "name": "OP100-1",
+      "number": 1
+    },
+    "pSet": {
+      "comment": "F 11.00 Nm",
+      "number": 1,
+      "torqueUnit": 0,
+      "initialTorqueUnit": 0
+    },
+    "identifiers": [],
+    "results": [
+      {
+        "tool": {
+          "number": 1,
+          "serialNumber": "24M73600"
+        },
+        "steps": [
+          {
+            "configuration": {
+              "angleMaxTolerance": 0.0,
+              "angleMinTolerance": 0.0,
+              "angleTarget": 0.0,
+              "angleThreshold": 0.0,
+              "maxCurrent": 0.0,
+              "minCurrent": 0.0,
+              "number": 3,
+              "numberDiscriminant": 0,
+              "type": 20,
+              "torqueMaxTolerance": 11.300000190734863,
+              "torqueMinTolerance": 10.699999809265137,
+              "torqueRateMaxTolerance": 0.0,
+              "torqueRateMinTolerance": 0.0,
+              "torqueRateTarget": 0.0,
+              "torqueTarget": 11.0
+            },
+            "data": {
+              "angleTrend": 0,
+              "currentTrend": 0,
+              "cycleOKCount": 0,
+              "errorCode": 0,
+              "finalAngle": 0.0,
+              "finalCurrent": 0.0,
+              "finalTorque": 11.370782852172852,
+              "finalTorqueRate": 0.0,
+              "infTorque": 0.0,
+              "monitoring1Trend": 0,
+              "monitoring2Trend": 0,
+              "monitoringType": 0,
+              "recordType": 0,
+              "report": "NOK",
+              "resultType": 1,
+              "servoDriveError": 0,
+              "supTorque": 0.0,
+              "torqueAccuracy": 2,
+              "torqueRateTrend": 0,
+              "torqueTrend": 2,
+              "isHeader": false,
+              "isAggregation": true,
+              "isAggregationTool": true
+            }
+          }
+        ]
+      }
+    ],
+    "divisionId": "c890cd09-5e91-4d10-9dc3-936a6b9b58ee",
+    "divisionName": "Default Division",
+    "factoryId": "82e61c1c-5e54-4025-be9c-7f4cf1b0d17d",
+    "factoryName": "Default Factory",
+    "assemblyLineId": "34dd05eb-c5f6-40ba-9373-f1013c413b60",
+    "assemblyLineName": "Default Assembly line",
+    "workingAreaId": "5fe74e0c-7e38-4ed9-81f0-cc1dc197cb17",
+    "workingAreaName": "Default Working Area",
+    "deviceId": "70.9.5.2",
+    "virtualDeviceId": "70.9.5.2",
+    "deviceName": "OP100-1@70.9.5.2",
+    "deviceType": "TighteningProduct",
+    "companyName": "Default Company"
+  },
+  "id": "70.9.5.2-27.04.2025 16:53:17 +08:00-1-4",
+  "updatedAt": "2025-04-27T16:53:21.2600345+08:00",
+  "createdAt": "2025-04-27T16:53:21.0402065+08:00"
+}
+2025-05-13 11:50:58.281 [Thread-7] INFO  com.znh.siemens.controller.TighteningController - PUT Data: ID=null, data={
+  "model": {
+    "resultNumber": 4,
+    "controllerDateTime": "2025-04-27T16:53:17+08:00",
+    "cycleOKProgrammed": 1,
+    "cycleOKCount": 0,
+    "operationCount": 1,
+    "operationName": "F 11.00 Nm",
+    "report": "NOK",
+    "spindleCount": 1,
+    "controller": {
+      "name": "OP100-1@70.9.5.2",
+      "ip": "70.9.5.2",
+      "type": 6
+    },
+    "tighteningUnit": {
+      "name": "OP100-1",
+      "number": 1
+    },
+    "pSet": {
+      "comment": "F 11.00 Nm",
+      "number": 1,
+      "torqueUnit": 0,
+      "initialTorqueUnit": 0
+    },
+    "identifiers": [],
+    "results": [
+      {
+        "tool": {
+          "number": 1,
+          "serialNumber": "24M73600"
+        },
+        "steps": [
+          {
+            "configuration": {
+              "angleMaxTolerance": 0.0,
+              "angleMinTolerance": 0.0,
+              "angleTarget": 0.0,
+              "angleThreshold": 0.0,
+              "maxCurrent": 0.0,
+              "minCurrent": 0.0,
+              "number": 3,
+              "numberDiscriminant": 0,
+              "type": 20,
+              "torqueMaxTolerance": 11.300000190734863,
+              "torqueMinTolerance": 10.699999809265137,
+              "torqueRateMaxTolerance": 0.0,
+              "torqueRateMinTolerance": 0.0,
+              "torqueRateTarget": 0.0,
+              "torqueTarget": 11.0
+            },
+            "data": {
+              "angleTrend": 0,
+              "currentTrend": 0,
+              "cycleOKCount": 0,
+              "errorCode": 0,
+              "finalAngle": 0.0,
+              "finalCurrent": 0.0,
+              "finalTorque": 11.370782852172852,
+              "finalTorqueRate": 0.0,
+              "infTorque": 0.0,
+              "monitoring1Trend": 0,
+              "monitoring2Trend": 0,
+              "monitoringType": 0,
+              "recordType": 0,
+              "report": "NOK",
+              "resultType": 1,
+              "servoDriveError": 0,
+              "supTorque": 0.0,
+              "torqueAccuracy": 2,
+              "torqueRateTrend": 0,
+              "torqueTrend": 2,
+              "isHeader": false,
+              "isAggregation": true,
+              "isAggregationTool": true
+            }
+          }
+        ]
+      }
+    ],
+    "divisionId": "c890cd09-5e91-4d10-9dc3-936a6b9b58ee",
+    "divisionName": "Default Division",
+    "factoryId": "82e61c1c-5e54-4025-be9c-7f4cf1b0d17d",
+    "factoryName": "Default Factory",
+    "assemblyLineId": "34dd05eb-c5f6-40ba-9373-f1013c413b60",
+    "assemblyLineName": "Default Assembly line",
+    "workingAreaId": "5fe74e0c-7e38-4ed9-81f0-cc1dc197cb17",
+    "workingAreaName": "Default Working Area",
+    "deviceId": "70.9.5.2",
+    "virtualDeviceId": "70.9.5.2",
+    "deviceName": "OP100-1@70.9.5.2",
+    "deviceType": "TighteningProduct",
+    "companyName": "Default Company"
+  },
+  "id": "70.9.5.2-27.04.2025 16:53:17 +08:00-1-4",
+  "updatedAt": "2025-04-27T16:53:21.2600345+08:00",
+  "createdAt": "2025-04-27T16:53:21.0402065+08:00"
+}

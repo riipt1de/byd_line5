@@ -1,0 +1,16 @@
+2025-05-05 19:25:42.540 [JavaFX Application Thread] INFO  com.znh.siemens.StartApplication - Start loading Demeter config...
+2025-05-05 19:25:42.804 [JavaFX Application Thread] INFO  com.znh.siemens.config.DemeterApiConfigLoader - 已加载马头API配置: 测试
+2025-05-05 19:25:42.804 [JavaFX Application Thread] INFO  com.znh.siemens.config.DemeterApiConfigLoader - 已加载马头API配置: 马头1
+2025-05-05 19:25:42.804 [JavaFX Application Thread] INFO  com.znh.siemens.config.DemeterApiConfigLoader - 已加载马头API配置: 马头2
+2025-05-05 19:25:42.804 [JavaFX Application Thread] INFO  com.znh.siemens.StartApplication - Loading Demeter config done
+2025-05-05 19:25:42.843 [JavaFX Application Thread] INFO  com.znh.siemens.utils.DemeterApiService - [start] Get Data from Demeter at -->  2025-05-05 19:25:42
+2025-05-05 19:25:44.908 [JavaFX Application Thread] ERROR com.znh.siemens.utils.DemeterApiService - failed!!! Connection refused: connect
+2025-05-05 19:25:46.066 [JavaFX Application Thread] INFO  com.znh.siemens.StartApplication - plc采集程序启动成功
+2025-05-05 21:12:16.617 [JavaFX Application Thread] INFO  com.znh.siemens.StartApplication - Start loading Demeter config...
+2025-05-05 21:12:16.767 [JavaFX Application Thread] INFO  com.znh.siemens.config.DemeterApiConfigLoader - 已加载马头API配置: 测试
+2025-05-05 21:12:16.767 [JavaFX Application Thread] INFO  com.znh.siemens.config.DemeterApiConfigLoader - 已加载马头API配置: 马头1
+2025-05-05 21:12:16.767 [JavaFX Application Thread] INFO  com.znh.siemens.config.DemeterApiConfigLoader - 已加载马头API配置: 马头2
+2025-05-05 21:12:16.767 [JavaFX Application Thread] INFO  com.znh.siemens.StartApplication - Loading Demeter config done
+2025-05-05 21:12:16.794 [JavaFX Application Thread] INFO  com.znh.siemens.utils.DemeterApiService - [start] Get Data from Demeter at -->  2025-05-05 21:12:16
+2025-05-05 21:12:18.859 [JavaFX Application Thread] ERROR com.znh.siemens.utils.DemeterApiService - failed!!! Connection refused: connect
+2025-05-05 21:12:19.855 [JavaFX Application Thread] INFO  com.znh.siemens.StartApplication - plc采集程序启动成功

@@ -1,0 +1,8 @@
+2025-04-20 20:22:47.819 [JavaFX Application Thread] INFO  com.znh.siemens.StartApplication - 正在加载马头API配置...
+2025-04-20 20:22:47.992 [JavaFX Application Thread] INFO  com.znh.siemens.config.DemeterApiConfigLoader - 已加载马头API配置: 测试
+2025-04-20 20:22:47.992 [JavaFX Application Thread] INFO  com.znh.siemens.config.DemeterApiConfigLoader - 已加载马头API配置: 马头1
+2025-04-20 20:22:47.992 [JavaFX Application Thread] INFO  com.znh.siemens.config.DemeterApiConfigLoader - 已加载马头API配置: 马头2
+2025-04-20 20:22:47.992 [JavaFX Application Thread] INFO  com.znh.siemens.StartApplication - 马头API配置加载完成
+2025-04-20 20:22:48.023 [JavaFX Application Thread] INFO  com.znh.siemens.utils.DemeterApiService - 从马头获取数据 执行时间-->  2025-04-20 20:22:47
+2025-04-20 20:22:50.082 [JavaFX Application Thread] ERROR com.znh.siemens.utils.DemeterApiService - 马头获取数据失败 Connection refused: connect
+2025-04-20 20:22:51.172 [JavaFX Application Thread] INFO  com.znh.siemens.StartApplication - plc采集程序启动成功

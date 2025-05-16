@@ -1,0 +1,23 @@
+[
+    {
+      "plcId": "plc1",
+      "username": "wutao",
+      "password": "123456",
+      "isDefault": true,
+      "description": "默认PLC账号"
+    },
+    {
+      "plcId": "plc2",
+      "username": "admin",
+      "password": "admin123",
+      "isDefault": false,
+      "description": "备用PLC账号"
+    },
+    {
+      "plcId": "plc3",
+      "username": "user1",
+      "password": "password1",
+      "isDefault": false,
+      "description": "PLC3账号"
+    }
+  ]

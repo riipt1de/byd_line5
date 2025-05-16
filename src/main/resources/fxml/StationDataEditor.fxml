@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.znh.siemens.controller.StationDataEditorController">
+   <children>
+      <VBox spacing="10.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+         <children>
+            <HBox alignment="CENTER_LEFT" spacing="10.0">
+               <children>
+                  <Label text="工位名称：">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="stationNameField" prefWidth="200.0" />
+                  <Label text="工序名称：">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="stationProcessField" prefWidth="200.0" />
+                  <Button fx:id="addStationButton" mnemonicParsing="false" onAction="#addStationButtonClick" text="添加工位">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="importButton" mnemonicParsing="false" onAction="#importButtonClick" text="导入工位">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+            <Separator />
+            <HBox spacing="10.0">
+               <children>
+                  <VBox prefWidth="200.0" spacing="5.0">
+                     <children>
+                        <Label text="工位 | 工序列表">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <ListView fx:id="stationListView" prefHeight="450.0" />
+                        <HBox spacing="10.0">
+                           <children>
+                              <Button fx:id="editStationButton" mnemonicParsing="false" onAction="#editStationButtonClick" text="编辑工位">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="deleteStationButton" mnemonicParsing="false" onAction="#deleteStationButtonClick" text="删除工位">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+                  <VBox spacing="10.0" HBox.hgrow="ALWAYS">
+                     <children>
+                        <GridPane hgap="10.0" vgap="10.0">
+                           <columnConstraints>
+                              <ColumnConstraints hgrow="NEVER" minWidth="80.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="200.0" />
+                           </columnConstraints>
+                           <rowConstraints>
+                              <RowConstraints minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="30.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                           </rowConstraints>
+                           <children>
+                              <Label text="检测项：">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                              <TextField fx:id="itemNameField" GridPane.columnIndex="1" />
+                              <Label text="检测项类别：" GridPane.rowIndex="1">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                              <ComboBox fx:id="itemTypeComboBox" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                              <Label text="DB块：" GridPane.rowIndex="2">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                              <TextField fx:id="itemDbField" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                              <Label text="偏移量：" GridPane.rowIndex="3">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                              <TextField fx:id="offsetField" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                              <Label text="常规数据类型：" GridPane.rowIndex="4">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                              <ComboBox fx:id="dataTypeComboBox" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                              <Label text="数组类型：" GridPane.rowIndex="5">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                              <HBox spacing="5.0" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                                 <children>
+                                    <ComboBox fx:id="arrayTypeComboBox" prefWidth="120.0" />
+                                    <Label text="长度：">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <TextField fx:id="arrayLengthField" prefWidth="70.0" />
+                                 </children>
+                              </HBox>
+                              <Label text="长度：" GridPane.rowIndex="6">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                              <TextField fx:id="lengthField" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                           </children>
+                        </GridPane>
+                        <HBox spacing="10.0">
+                           <children>
+                              <Button fx:id="addItemButton" mnemonicParsing="false" onAction="#addItemButtonClick" text="添加检测项">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="editItemButton" mnemonicParsing="false" onAction="#editItemButtonClick" text="修改检测项">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="deleteItemButton" mnemonicParsing="false" onAction="#deleteItemButtonClick" text="删除检测项">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </HBox>
+                        <TableView fx:id="itemTableView" prefHeight="350.0">
+                           <columns>
+                              <TableColumn fx:id="nameColumn" prefWidth="200.0" text="检测项" />
+                              <TableColumn fx:id="itemTypeColumn" prefWidth="120.0" text="检测项类型" />
+                              <TableColumn fx:id="dbColumn" prefWidth="120.0" text="db块" />
+                              <TableColumn fx:id="offsetColumn" prefWidth="100.0" text="偏移量" />
+                              <TableColumn fx:id="dataTypeColumn" prefWidth="100.0" text="数据类型" />
+                              <TableColumn fx:id="lengthColumn" prefWidth="100.0" text="长度" />
+                           </columns>
+                        </TableView>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_RIGHT" spacing="10.0">
+               <children>
+                  <Button fx:id="saveButton" mnemonicParsing="false" onAction="#saveButtonClick" text="保存">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="cancelButton" mnemonicParsing="false" onAction="#cancelButtonClick" text="取消">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </VBox>
+   </children>
+</AnchorPane>

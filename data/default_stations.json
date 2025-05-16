@@ -1,0 +1,317 @@
+[ {
+  "name" : "6_OP010",
+  "process" : "OP010",
+  "items" : [ {
+    "name" : "工序零件身份证_OP21",
+    "db" : "db2101.",
+    "offset" : 28.0,
+    "dataType" : "string",
+    "itemType" : "SN项",
+    "length" : 50,
+    "result" : ""
+  }, {
+    "name" : "plc请求",
+    "db" : "db2101.",
+    "offset" : 80.0,
+    "dataType" : "byte",
+    "itemType" : "监听项",
+    "length" : 1,
+    "result" : ""
+  }, {
+    "name" : "mes校验",
+    "db" : "db2101.",
+    "offset" : 81.0,
+    "dataType" : "byte",
+    "itemType" : "写入项",
+    "length" : 1,
+    "result" : ""
+  }, {
+    "name" : "工序零件身份证_OP21",
+    "db" : "db2101.",
+    "offset" : 148.0,
+    "dataType" : "string",
+    "itemType" : "SN项",
+    "length" : 50,
+    "result" : ""
+  }, {
+    "name" : "plc请求",
+    "db" : "db2101.",
+    "offset" : 200.0,
+    "dataType" : "byte",
+    "itemType" : "监听项",
+    "length" : 1,
+    "result" : ""
+  }, {
+    "name" : "mes校验",
+    "db" : "db2101.",
+    "offset" : 201.0,
+    "dataType" : "byte",
+    "itemType" : "写入项",
+    "length" : 1,
+    "result" : ""
+  }, {
+    "name" : "圆柱销长度光电检测",
+    "db" : "db2101.",
+    "offset" : 202.0,
+    "dataType" : "bool",
+    "itemType" : "读取项",
+    "length" : 1,
+    "result" : ""
+  }, {
+    "name" : "销钉安装位置检测(间距)1左",
+    "db" : "db2101.",
+    "offset" : 204.0,
+    "dataType" : "float",
+    "itemType" : "读取项",
+    "length" : 1,
+    "result" : ""
+  }, {
+    "name" : "压销位移(PLC伺服位置)1左",
+    "db" : "db2101.",
+    "offset" : 208.0,
+    "dataType" : "array[0..20] of real",
+    "itemType" : "读取项",
+    "length" : 1,
+    "result" : ""
+  }, {
+    "name" : "压销压力(PLC压力传感器)1左",
+    "db" : "db2101.",
+    "offset" : 288.0,
+    "dataType" : "array[0..20] of real",
+    "itemType" : "读取项",
+    "length" : 1,
+    "result" : ""
+  }, {
+    "name" : "销钉深度检测1左",
+    "db" : "db2101.",
+    "offset" : 368.0,
+    "dataType" : "float",
+    "itemType" : "读取项",
+    "length" : 1,
+    "result" : ""
+  }, {
+    "name" : "销钉安装位置检测(间距)2右",
+    "db" : "db2101.",
+    "offset" : 372.0,
+    "dataType" : "float",
+    "itemType" : "读取项",
+    "length" : 1,
+    "result" : ""
+  }, {
+    "name" : "压销位移(PLC伺服位置)2右",
+    "db" : "db2101.",
+    "offset" : 376.0,
+    "dataType" : "array[0..20] of real",
+    "itemType" : "读取项",
+    "length" : 1,
+    "result" : ""
+  }, {
+    "name" : "压销压力(PLC压力传感器)2右",
+    "db" : "db2101.",
+    "offset" : 456.0,
+    "dataType" : "array[0..20] of real",
+    "itemType" : "读取项",
+    "length" : 1,
+    "result" : ""
+  }, {
+    "name" : "销钉深度检测2右",
+    "db" : "db2101.",
+    "offset" : 536.0,
+    "dataType" : "float",
+    "itemType" : "读取项",
+    "length" : 1,
+    "result" : ""
+  } ]
+}, {
+  "name" : "6_OP020",
+  "process" : "OP020",
+  "items" : [ {
+    "name" : "工序零件身份证_OP22",
+    "db" : "db2201.",
+    "offset" : 80.0,
+    "dataType" : "string",
+    "itemType" : "SN项",
+    "length" : 50,
+    "result" : ""
+  }, {
+    "name" : "plc请求",
+    "db" : "db2201.",
+    "offset" : 146.0,
+    "dataType" : "byte",
+    "itemType" : "监听项",
+    "length" : 1,
+    "result" : ""
+  }, {
+    "name" : "mes校验",
+    "db" : "db2201.",
+    "offset" : 147.0,
+    "dataType" : "byte",
+    "itemType" : "写入项",
+    "length" : 1,
+    "result" : ""
+  }, {
+    "name" : "电子泵后端单向滑阀阀芯混料检测",
+    "db" : "db2201.",
+    "offset" : 148.0,
+    "dataType" : "bool",
+    "itemType" : "读取项",
+    "length" : 1,
+    "result" : ""
+  }, {
+    "name" : "电子泵后端单向滑阀激光检测",
+    "db" : "db2201.",
+    "offset" : 150.0,
+    "dataType" : "float",
+    "itemType" : "读取项",
+    "length" : 1,
+    "result" : ""
+  } ]
+}, {
+  "name" : "6_OP030",
+  "process" : "OP030",
+  "items" : [ {
+    "name" : "工序零件身份证_OP22",
+    "db" : "db2201.",
+    "offset" : 154.0,
+    "dataType" : "string",
+    "itemType" : "SN项",
+    "length" : 50,
+    "result" : ""
+  }, {
+    "name" : "plc请求",
+    "db" : "db2201.",
+    "offset" : 220.0,
+    "dataType" : "byte",
+    "itemType" : "监听项",
+    "length" : 1,
+    "result" : ""
+  }, {
+    "name" : "mes校验",
+    "db" : "db2201.",
+    "offset" : 221.0,
+    "dataType" : "byte",
+    "itemType" : "写入项",
+    "length" : 1,
+    "result" : ""
+  }, {
+    "name" : "电子泵后端单向滑阀弹簧混料检测",
+    "db" : "db2201.",
+    "offset" : 222.0,
+    "dataType" : "bool",
+    "itemType" : "读取项",
+    "length" : 1,
+    "result" : ""
+  }, {
+    "name" : "电子泵后端单向滑阀弹簧1压力位移",
+    "db" : "db2201.",
+    "offset" : 224.0,
+    "dataType" : "array[0..20] of real",
+    "itemType" : "函数项_y",
+    "length" : 1,
+    "result" : ""
+  }, {
+    "name" : "电子泵后端单向滑阀弹簧1位移",
+    "db" : "db2201.",
+    "offset" : 304.0,
+    "dataType" : "array[0..20] of real",
+    "itemType" : "函数项_x",
+    "length" : 1,
+    "result" : ""
+  }, {
+    "name" : "电子泵后端单向滑阀弹簧2压力位移",
+    "db" : "db2201.",
+    "offset" : 384.0,
+    "dataType" : "array[0..20] of real",
+    "itemType" : "函数项_y",
+    "length" : 1,
+    "result" : ""
+  }, {
+    "name" : "电子泵后端单向滑阀弹簧2位移",
+    "db" : "db2201.",
+    "offset" : 464.0,
+    "dataType" : "array[0..20] of real",
+    "itemType" : "函数项_x",
+    "length" : 1,
+    "result" : ""
+  } ]
+}, {
+  "name" : "6_OP040",
+  "process" : "OP040",
+  "items" : [ {
+    "name" : "工序零件身份证_OP22_3",
+    "db" : "db2201.",
+    "offset" : 544.0,
+    "dataType" : "string",
+    "itemType" : "SN项",
+    "length" : 50,
+    "result" : ""
+  }, {
+    "name" : "plc请求",
+    "db" : "db2201.",
+    "offset" : 610.0,
+    "dataType" : "byte",
+    "itemType" : "监听项",
+    "length" : 1,
+    "result" : ""
+  }, {
+    "name" : "mes校验",
+    "db" : "db2201.",
+    "offset" : 611.0,
+    "dataType" : "byte",
+    "itemType" : "写入项",
+    "length" : 1,
+    "result" : ""
+  }, {
+    "name" : "堵头密封圈安装到位/密封圈缺陷检测",
+    "db" : "db2201.",
+    "offset" : 612.0,
+    "dataType" : "bool",
+    "itemType" : "读取项",
+    "length" : 1,
+    "result" : ""
+  } ]
+}, {
+  "name" : "6_OP050",
+  "process" : "OP050",
+  "items" : [ {
+    "name" : "工序零件身份证_OP22_4",
+    "db" : "db2201.",
+    "offset" : 614.0,
+    "dataType" : "string",
+    "itemType" : "SN项",
+    "length" : 50,
+    "result" : ""
+  }, {
+    "name" : "plc请求",
+    "db" : "db2201.",
+    "offset" : 680.0,
+    "dataType" : "byte",
+    "itemType" : "监听项",
+    "length" : 1,
+    "result" : ""
+  }, {
+    "name" : "mes校验",
+    "db" : "db2201.",
+    "offset" : 681.0,
+    "dataType" : "byte",
+    "itemType" : "写入项",
+    "length" : 1,
+    "result" : ""
+  }, {
+    "name" : "堵头压力位移1",
+    "db" : "db2201.",
+    "offset" : 682.0,
+    "dataType" : "array[0..20] of real",
+    "itemType" : "函数项_y",
+    "length" : 1,
+    "result" : ""
+  }, {
+    "name" : "堵头位移1",
+    "db" : "db2201.",
+    "offset" : 762.0,
+    "dataType" : "array[0..20] of real",
+    "itemType" : "函数项_x",
+    "length" : 1,
+    "result" : ""
+  } ]
+} ]

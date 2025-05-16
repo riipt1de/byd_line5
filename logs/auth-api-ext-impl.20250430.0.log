@@ -1,0 +1,12 @@
+2025-04-30 15:57:06.680 [JavaFX Application Thread] INFO  com.znh.siemens.StartApplication - Start loading Demeter config...
+2025-04-30 15:57:06.909 [JavaFX Application Thread] INFO  com.znh.siemens.config.DemeterApiConfigLoader - 已加载马头API配置: 测试
+2025-04-30 15:57:06.909 [JavaFX Application Thread] INFO  com.znh.siemens.config.DemeterApiConfigLoader - 已加载马头API配置: 马头1
+2025-04-30 15:57:06.909 [JavaFX Application Thread] INFO  com.znh.siemens.config.DemeterApiConfigLoader - 已加载马头API配置: 马头2
+2025-04-30 15:57:06.909 [JavaFX Application Thread] INFO  com.znh.siemens.StartApplication - Loading Demeter config done
+2025-04-30 15:57:06.943 [JavaFX Application Thread] INFO  com.znh.siemens.utils.DemeterApiService - [start] Get Data from Demeter at -->  2025-04-30 15:57:06
+2025-04-30 15:57:08.990 [JavaFX Application Thread] ERROR com.znh.siemens.utils.DemeterApiService - failed!!! Connection refused: connect
+2025-04-30 15:57:10.225 [JavaFX Application Thread] INFO  com.znh.siemens.StartApplication - plc采集程序启动成功
+2025-04-30 15:57:34.557 [JavaFX Application Thread] INFO  com.znh.siemens.controller.TighteningController - 拧紧控制器HTTP服务器已启动，端口：5001
+2025-04-30 15:58:27.484 [Thread-7] INFO  com.znh.siemens.controller.TighteningController - 接收到PUT数据: ID=15, 数据={
+    "test":1
+}
