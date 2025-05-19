@@ -346,7 +346,8 @@ public class StationDataReadThread extends Thread {
                     log.info("{} station starts getting tightening controller data...", station.getName());
                     Map<String, Object> tighteningData = getTighteningData();
                     if (tighteningData != null) {
-                        List<Map<String, Object>> results = (List<Map<String, Object>>) tighteningData.get("results");
+                        Map<String, Object> model = (Map<String, Object>) tighteningData.get("model");
+                        List<Map<String, Object>> results = (List<Map<String, Object>>) model.get("results");
                         if (results != null && !results.isEmpty()) {
                             Map<String, Object> firstResult = results.get(0);
                             List<Map<String, Object>> steps = (List<Map<String, Object>>) firstResult.get("steps");
