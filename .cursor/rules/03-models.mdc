@@ -3,3 +3,15 @@ description:
 globs:
 alwaysApply: false
 ---
+# 数据模型组件
+
+模型组件定义了系统中使用的各种数据结构和实体类。
+
+## 主要模型
+
+- [PlcAccount.java](mdc:src/main/java/com/znh/siemens/model/PlcAccount.java) - PLC账户信息模型
+- [CheckDataModel.java](mdc:src/main/java/com/znh/siemens/model/CheckDataModel.java) - 检查数据模型
+- [StationItem.java](mdc:src/main/java/com/znh/siemens/model/StationItem.java) - 站点项目模型
+- [TestDataModel.java](mdc:src/main/java/com/znh/siemens/model/TestDataModel.java) - 测试数据模型
+- [PassData.java](mdc:src/main/java/com/znh/siemens/model/PassData.java) - 通过数据模型
+- [Station.java](mdc:src/main/java/com/znh/siemens/model/Station.java) - 站点模型

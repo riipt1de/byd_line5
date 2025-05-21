@@ -3,3 +3,16 @@ description:
 globs:
 alwaysApply: false
 ---
+# 配置组件
+
+配置组件负责管理系统配置和设置。
+
+## 主要配置类
+
+- [DemeterApiConfig.java](mdc:src/main/java/com/znh/siemens/config/DemeterApiConfig.java) - Demeter API配置类，定义API相关配置属性
+- [DemeterApiConfigLoader.java](mdc:src/main/java/com/znh/siemens/config/DemeterApiConfigLoader.java) - Demeter API配置加载器，负责加载和管理配置
+
+## 相关配置文件
+
+- [logback.xml](mdc:src/main/resources/logback.xml) - 日志配置文件
+- [logback-spring.xml](mdc:src/main/resources/logback-spring.xml) - 扩展日志配置文件

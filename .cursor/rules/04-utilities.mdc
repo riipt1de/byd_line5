@@ -3,3 +3,15 @@ description:
 globs:
 alwaysApply: false
 ---
+# 工具类组件
+
+工具类提供了系统中使用的各种通用功能和辅助方法。
+
+## 主要工具类
+
+- [ApiService.java](mdc:src/main/java/com/znh/siemens/utils/ApiService.java) - API服务工具类，处理API请求和响应
+- [DemeterApiService.java](mdc:src/main/java/com/znh/siemens/utils/DemeterApiService.java) - Demeter API服务工具类
+- [TestDataUtil.java](mdc:src/main/java/com/znh/siemens/utils/TestDataUtil.java) - 测试数据工具类，处理测试数据相关操作
+- [FinalConstant.java](mdc:src/main/java/com/znh/siemens/utils/FinalConstant.java) - 系统常量定义
+- [FinalFunction.java](mdc:src/main/java/com/znh/siemens/utils/FinalFunction.java) - 通用函数定义
+- [IpAddressUtil.java](mdc:src/main/java/com/znh/siemens/utils/IpAddressUtil.java) - IP地址处理工具类

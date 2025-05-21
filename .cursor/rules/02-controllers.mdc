@@ -3,3 +3,17 @@ description:
 globs:
 alwaysApply: false
 ---
+# 控制器组件
+
+控制器负责处理用户界面交互和业务逻辑。
+
+## 主要控制器
+
+- [SiemensWindowsController.java](mdc:src/main/java/com/znh/siemens/controller/SiemensWindowsController.java) - 主窗口控制器，负责主界面功能和交互
+- [TighteningController.java](mdc:src/main/java/com/znh/siemens/controller/TighteningController.java) - 拧紧控制器，处理设备通信和数据处理
+- [StationDataEditorController.java](mdc:src/main/java/com/znh/siemens/controller/StationDataEditorController.java) - 站点数据编辑控制器，管理站点数据编辑功能
+
+## 相关视图
+
+- [SiemensWindow.fxml](mdc:src/main/resources/fxml/SiemensWindow.fxml) - 主窗口UI布局
+- [StationDataEditor.fxml](mdc:src/main/resources/fxml/StationDataEditor.fxml) - 站点数据编辑器UI布局

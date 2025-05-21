@@ -3,3 +3,15 @@ description:
 globs:
 alwaysApply: false
 ---
+# 线程组件
+
+线程组件负责后台数据处理和通信任务。
+
+## 主要线程类
+
+- [StationDataReadThread.java](mdc:src/main/java/com/znh/siemens/thread/StationDataReadThread.java) - 站点数据读取线程，负责从站点设备读取数据
+- [DataReadThread.java](mdc:src/main/java/com/znh/siemens/thread/DataReadThread.java) - 数据读取线程，负责通用数据读取任务
+
+## 相关组件
+
+- [TighteningController.java](mdc:src/main/java/com/znh/siemens/controller/TighteningController.java) - 与线程交互的控制器

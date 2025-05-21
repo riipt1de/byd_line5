@@ -3,3 +3,24 @@ description:
 globs:
 alwaysApply: false
 ---
+# 西门子通讯程序项目概览
+
+此项目是一个西门子PLC通讯程序，使用JavaFX开发的桌面应用程序。
+
+## 主要功能
+- 与西门子PLC设备通讯
+- 数据采集与监控
+- 测试数据处理
+- 可视化界面显示
+
+## 项目结构
+- [src/main/java/com/znh/siemens/StartApplication.java](mdc:src/main/java/com/znh/siemens/StartApplication.java) - 程序入口点
+- [pom.xml](mdc:pom.xml) - Maven项目配置和依赖管理
+
+## 主要组件
+- 控制器 - 管理用户界面和业务逻辑
+- 模型 - 定义数据结构
+- 视图 - 定义UI界面
+- 配置 - 系统配置管理
+- 工具类 - 通用功能和辅助方法
+- 线程 - 后台数据处理和通信
