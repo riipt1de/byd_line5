@@ -407,7 +407,7 @@ public class StationDataReadThread extends Thread {
     private Map<String, Object> getTighteningData() {
         TighteningController tighteningController = TighteningController.getInstance(0);
         Map<String, Object> data = null;
-        int maxRetries = 10; // 最大重试次数
+        int maxRetries = 20; // 最大重试次数
         int retryCount = 0;
 
         try {
@@ -725,6 +725,7 @@ public class StationDataReadThread extends Thread {
             return result;
         } catch (Exception e) {
             String errorMsg = "Error: " + e.getMessage();
+            log.info("readItemValue Error {}",e);
             return errorMsg;
         }
     }
